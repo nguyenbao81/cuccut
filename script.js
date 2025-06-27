@@ -18,13 +18,13 @@ function clearPassword() {
 
 function checkPassword() {
   if (password === correctPassword) {
-    alert("Mật khẩu đúng! Chẩn bị đón bất ngờ nè!!");
+    alert("chúc mừng bạn đã đoán đúng!!");
     window.location.href = "sinhnhat.html";
   } else {
     passwordInput.classList.add("shake");
     setTimeout(() => {
       passwordInput.classList.remove("shake");
-      alert("Mật khẩu sai! Vui lòng thử lại.");
+      alert("sai dồiiiii xin thử lại .");
       clearPassword();
     }, 500);
   }
